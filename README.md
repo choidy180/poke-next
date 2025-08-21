@@ -20,16 +20,6 @@
   <img src="https://img.shields.io/badge/Made%20with-❤️-ff69b4" />
 </p>
 
-<p align="center">
-  <a href="#-기능">기능</a> ·
-  <a href="#-기술 스택">기술 스택</a> ·
-  <a href="#-빠른 시작">빠른 시작</a> ·
-  <a href="#-화면 예시">화면 예시</a> ·
-  <a href="#-프로젝트 구조">프로젝트 구조</a> ·
-  <a href="#-기여">기여</a> ·
-  <a href="#-라이선스">라이선스</a>
-</p>
-
 ---
 
 ##  기능
