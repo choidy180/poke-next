@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="./public/banner.png" alt="Poke-Next Banner" width="100%" />
+  <img src="./public/poke-logo.png" alt="Poke-Next Banner" width="100%" />
 </p>
 
 <h1 align="center">⚡ Poke-Next: 포켓몬 도감 웹앱</h1>
