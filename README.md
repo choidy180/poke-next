@@ -119,13 +119,9 @@ export const STAT_KO: Record<string, string> = {
   speed: '스피드',
 };
 
-// -------------------------------------------------------------------
-
 const API = 'https://pokeapi.co/api/v2';
 const KOREAN = 'ko';
-
-// In-memory cache (per serverless runtime instance / browser tab)
-const nameCache = new Map<number, string>(); // id -> ko name
+const nameCache = new Map<number, string>(); // id -> 한글 이름름
 
 async function fetchJSON<T>(url: string): Promise<T> {
   const res = await fetch(url, {
@@ -176,7 +172,6 @@ async function fetchLocalName(idOrName: number | string): Promise<{ id: number; 
   return { id: data.id, nameKo: ko };
 }
 
-// -------------------------------------------------------------------
 // LIST (summary)
 
 export async function getPokemonListSummary(
@@ -231,7 +226,6 @@ export async function getPokemonListSummary(
   return rows;
 }
 
-// -------------------------------------------------------------------
 // DETAIL
 
 export async function getPokemonDetail(
