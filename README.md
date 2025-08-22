@@ -54,6 +54,8 @@
 #### 2. 포켓몬 API 이용하여 1세대 포켓몬 목록 + 상세정보 불러오기
 #### 3. 배경으로 Noise 추가(스타일 컴포넌트)
 
+
+##  Install
 ```bash
 # 1) 레포지토리 복제
 git clone https://github.com/choidy180/poke-next.git
